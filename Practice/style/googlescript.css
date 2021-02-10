@@ -1,0 +1,124 @@
+body
+{
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+.footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F2F2F2;
+  color: #000000;
+  opacity: 75%;
+}
+
+.op75
+{
+  opacity: 0.75;
+  color:#272727 !important;
+}
+.topLink
+{
+  color:#222 !important;
+}
+
+.lowLink
+{
+  font-size:1rem;
+}
+.apps
+{
+  font-size: 1.5em;
+}
+.baseBlock
+{
+  border-top: 1px solid #dadce0;
+}
+.middle
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  clear:both;
+  width:100%;
+  text-align: center;
+}
+.searchBox
+{
+  max-width: 584px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.SearchField
+{
+  border-radius: 30px;
+  border: 1px solid #dadce0;
+}
+.form-control
+{
+  border:none;
+}
+.icon
+{
+  margin:12px;
+}
+.searchIcon
+{
+  height:20px;
+  width:20px;
+  opacity:75%;
+}
+.micIcon
+{
+  height:20px;
+  width:15px;
+}
+.secure_logo
+{
+  width:48px;
+  height:48px;
+}
+.searchBox a
+{
+  color:#1a0dab;
+  text-decoration: none;
+}
+button
+{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+button:hover
+{
+  border: 1px solid #dadce0;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+
+.SearchField:focus-within {
+
+  box-shadow: 0 5px 8px 2px #dadce0;
+}
+.form-control:focus
+{
+  border:none;
+  box-shadow: none;
+}

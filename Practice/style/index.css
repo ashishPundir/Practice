@@ -1,0 +1,10 @@
+body
+{
+  font-family: 'Montserrat', sans-serif;
+  color:coral;
+}
+
+.btn-outline-info:hover
+{
+  color:white;
+}
