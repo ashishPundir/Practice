@@ -1,0 +1,151 @@
+body
+{
+  background-color: #EAEDED;
+  box-sizing: border-box;
+}
+.header, .footer
+{
+  background-color: #131921;
+}
+.bodyBlock
+{
+  width:1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.promo
+{
+  background-image: url("C:/Users/ashis/OneDrive/Documents/Web Development/Practice/images/AZmainPageBG.jpg");
+  background-repeat: no-repeat;
+}
+.Prime
+{
+  background-image: url("C:/Users/ashis/OneDrive/Documents/Web Development/Practice/images/AmazonProducts/Prime.png");
+  background-repeat: no-repeat;
+}
+
+.prodrow
+{
+  height: 400px;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.CardBlock
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid white;
+  border-radius: .25rem;
+}
+.prodBlock
+{
+  width: 25%;
+  height: 100%;
+}
+.prodtile
+{
+  width: 51%;
+  height: 100%;
+}
+.MainBlock
+{
+  padding-top:300px;
+}
+.menu
+{
+  background-color: #232F3E;
+      height:39px;
+}
+.whitefooter
+{
+  color:white;
+  font-size: 12px;
+}
+.whitefooter a
+{
+  color:white;
+  font-size: 13px;
+  text-decoration: none;
+}
+.amazon_logo
+{
+  height:35px;
+  width:120px;
+}
+.flag
+{
+  height:30px;
+  width:25px;
+}
+.cart
+{
+  height:25px;
+  width:25px;
+}
+.allMenu
+{
+  color:white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.location
+{
+  color:white !important;
+  text-decoration:none;
+  display:inline-flex;
+}
+.location-icon
+{
+  padding-right: 4px;
+  margin-top: auto;
+}
+.searchbox
+{
+  width:50vw;
+}
+.glow-ingress-block
+{
+  display: grid;
+  line-height: 16px;
+}
+.glow-ingress-line1
+{
+  font-size: 13px;
+}
+.glow-ingress-line2
+{
+  font-weight: bold;
+}
+.cartbox
+{
+  position:relative;
+}
+.cart
+{
+  position: absolute;
+  top:5px;
+}
+.cartText
+{
+  color: white;
+font-weight: bold;
+position: absolute;
+top: 10px;
+left: 30px;
+}
+.number
+{
+  position: absolute;
+  top:0;
+  left:10px;
+  color: coral;
+  font-weight: bolder;
+}
